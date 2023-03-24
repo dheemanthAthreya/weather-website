@@ -1,0 +1,199 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #222;
+  background-image: url("https://source.unsplash.com/1920x1080/?landscape");
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  font-size: 120%;
+}
+
+.card {
+  background: #000000d0;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  margin: 0.5em;
+  border-radius: 50%;
+  height: 45.8px;
+  outline: none;
+  width: 45.8px;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #7c7c7c6b;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.3em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 120%;
+  width: calc(100% - 100px);
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.4em;
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading::after {
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: static;
+  margin: 0px;
+  width: fit-content;
+}
+
+.topnav {
+  overflow: hidden;
+  color: white;
+  background-color: #000000d0;
+  text-align: center;
+  position: fixed;
+  transition: 0.3s;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  opacity: 1;
+}
+
+.topnav a:hover {
+  background-color: white;
+  opacity: 0.5;
+  color: black;
+}
+
+table.boostrap4_table_head_dark {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+table.boostrap4_table_head_dark thead th {
+  font-size: 1rem;
+  line-height: 1.5;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  text-align: inherit;
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  color: #fff;
+  background-color: #212529;
+  border-color: #32383e;
+}
+
+table.boostrap4_table_head_dark td {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  background-color: black;
+  opacity: 0.8;
+  width: 300px;
+  height: 60px;
+}
+
+tr:hover {
+  opacity: 0.9;
+}
+
+/* ----------- Non table related styles */
+
+.table_container {
+  margin-left: auto;
+  margin-right: auto;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 75%;
+  max-width: none;
+}
+
+.temp1 {
+  color: white;
+}
+.humidity1 {
+  color: white;
+}
+.wind1 {
+  color: white;
+}
