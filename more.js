@@ -21,10 +21,10 @@ let weather0 = {
 };
 
 let weather1 = {
-    "apiKey0": "5a3a7ec0bb14b84569fdad54505491ff",
+    "apiKey0": "YOUR_API_KEY",
     fetchWeather: function () {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=mumbai&units=metric&appid=5a3a7ec0bb14b84569fdad54505491ff"
+            "https://api.openweathermap.org/data/2.5/weather?q=mumbai&units=metric&appid=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then((data) => this.displayweather(data))
@@ -43,10 +43,10 @@ let weather1 = {
 };
 
 let weather2 = {
-    "apiKey0": "5a3a7ec0bb14b84569fdad54505491ff",
+    "apiKey0": "YOUR_API_KEY",
     fetchWeather: function () {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=kolkata&units=metric&appid=5a3a7ec0bb14b84569fdad54505491ff"
+            "https://api.openweathermap.org/data/2.5/weather?q=kolkata&units=metric&appid=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then((data) => this.displayweather(data))
@@ -65,10 +65,10 @@ let weather2 = {
 };
 
 let weather3 = {
-    "apiKey0": "5a3a7ec0bb14b84569fdad54505491ff",
+    "apiKey0": "YOUR_API_KEY",
     fetchWeather: function () {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=chennai&units=metric&appid=5a3a7ec0bb14b84569fdad54505491ff"
+            "https://api.openweathermap.org/data/2.5/weather?q=chennai&units=metric&appid=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then((data) => this.displayweather(data))
@@ -87,10 +87,10 @@ let weather3 = {
 };
 
 let weather4 = {
-    "apiKey0": "5a3a7ec0bb14b84569fdad54505491ff",
+    "apiKey0": "YOUR_API_KEY",
     fetchWeather: function () {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=hyderabad&units=metric&appid=5a3a7ec0bb14b84569fdad54505491ff"
+            "https://api.openweathermap.org/data/2.5/weather?q=hyderabad&units=metric&appid=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then((data) => this.displayweather(data))
@@ -109,10 +109,10 @@ let weather4 = {
 };
 
 let weather5 = {
-    "apiKey0": "5a3a7ec0bb14b84569fdad54505491ff",
+    "apiKey0": "YOUR_API_KEY",
     fetchWeather: function () {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=new%20york&units=metric&appid=5a3a7ec0bb14b84569fdad54505491ff"
+            "https://api.openweathermap.org/data/2.5/weather?q=new%20york&units=metric&appid=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then((data) => this.displayweather(data))
@@ -132,10 +132,10 @@ let weather5 = {
 
 
 let weather6 = {
-    "apiKey0": "5a3a7ec0bb14b84569fdad54505491ff",
+    "apiKey0": "YOUR_API_KEY",
     fetchWeather: function () {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=dubai&units=metric&appid=5a3a7ec0bb14b84569fdad54505491ff"
+            "https://api.openweathermap.org/data/2.5/weather?q=dubai&units=metric&appid=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then((data) => this.displayweather(data))
@@ -154,10 +154,10 @@ let weather6 = {
 };
 
 let weather7 = {
-    "apiKey0": "5a3a7ec0bb14b84569fdad54505491ff",
+    "apiKey0": "YOUR_API_KEY",
     fetchWeather: function () {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=london&units=metric&appid=5a3a7ec0bb14b84569fdad54505491ff"
+            "https://api.openweathermap.org/data/2.5/weather?q=london&units=metric&appid=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then((data) => this.displayweather(data))
@@ -176,10 +176,10 @@ let weather7 = {
 };
 
 let weather8 = {
-    "apiKey0": "5a3a7ec0bb14b84569fdad54505491ff",
+    "apiKey0": "YOUR_API_KEY",
     fetchWeather: function () {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=tokyo&units=metric&appid=5a3a7ec0bb14b84569fdad54505491ff"
+            "https://api.openweathermap.org/data/2.5/weather?q=tokyo&units=metric&appid=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then((data) => this.displayweather(data))
@@ -198,10 +198,10 @@ let weather8 = {
 };
 
 let weather9 = {
-    "apiKey0": "5a3a7ec0bb14b84569fdad54505491ff",
+    "apiKey0": "YOUR_API_KEY",
     fetchWeather: function () {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=shanghai&units=metric&appid=5a3a7ec0bb14b84569fdad54505491ff"
+            "https://api.openweathermap.org/data/2.5/weather?q=shanghai&units=metric&appid=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then((data) => this.displayweather(data))
