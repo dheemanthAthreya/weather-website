@@ -2,7 +2,7 @@ let weather0 = {
     "apiKey0": "YOUR_API_KEY",
     fetchWeather: function () {
         fetch(
-            "https://api.openweathermap.org/data/2.5/weather?q=delhi&units=metric&appid=5a3a7ec0bb14b84569fdad54505491ff"
+            "https://api.openweathermap.org/data/2.5/weather?q=delhi&units=metric&appid=YOUR_API_KEY"
         )
             .then((response) => response.json())
             .then((data) => this.displayweather(data))
